@@ -3,14 +3,14 @@ These are the results for EXX calculations for H, H2, F, F2, HF
 We can compare the energies with https://arxiv.org/pdf/2208.14726.pdf
 
 In VASP, we use alavi-spencer truncation with
-14A box length and ENCUT=800 for all calculations.\
+12A box length and ENCUT=800 for all calculations.\
 Units in eV
 
-HF: -17.68703336\
-F2: -17.06561613\
-F:   -9.46556441\
-H2: -11.72874148\
-H:   -4.04158407
+HF: -17.68817\
+F2: -17.06572\
+F:   -9.46555\
+H2: -11.72874\
+H:   -4.04161
 
 Atomization energies in kcal/mol (23.061):
 
