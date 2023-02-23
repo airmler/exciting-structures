@@ -9,3 +9,18 @@ phase       PBE     HF(Nb=100)  MP2 (Nb=100)  HF (Nb=500)  MP2 (Nb=500)
 w [Ha]  -317.90668  -314.79830  -0.88971     -315.13057  -1.28575
 h [Ha]  -318.19030  -315.49650  -0.71122     -315.80224  -1.17929
 diff [eV]  7.72       19.00     -4.86          18.28     -2.90
+
+
+#RESULTS from exciting (ACE method) wz phase with 4 atoms
+grid       TOT Energy [Ha]    FBG [eV]
+1x1x1        -157.64228       16.6358
+2x2x1        -158.58010       15.6602
+3x3x2        -158.66229       14.2671
+5x5x3        -158.67691       15.3719
+
+#RESULTS from exciting (ACE method) h phase with 4 atoms
+grid       TOT Energy [Ha]    FBG [eV]
+1x1x1        -158.94596       18.5171
+3x3x1        -158.69845       13.5009
+4x4x2        -158.69845       13.5960
+5x5x2        -158.71372       13.6441
