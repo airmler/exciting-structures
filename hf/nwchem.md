@@ -27,3 +27,28 @@ this is possible because we can use CV for F and normal for H
 | 4 | 155 | -100.0687 | -0.3037 | -0.3025 |
 | 5 | 261 | -100.0707 | -0.3111 | -0.3084 |
 |[45]| -  |    -      | -0.3189 | -0.3146 |
+
+Results from exciting.
+
+The table contains: 
+* box - the unit cell parameter (a0),
+* rgkmax - dimensionless LAPW cutoff R\_MT * |G+k|\_max (muffin-tin radius times longest wavevector),
+* NB - number of basis functions,
+* total energies.
+R_H=0.7 a_0, R_F=1.0 a_0. 
+
+| box | rgkmax | NB | HF | MP2 | CCSD |
+|--- | ---| ---|---| ---| ---|
+| 15  | 5.4  | 26237  | -100.07028 | | |
+| 15  | 6.3  | 41847  | -100.07080 | | |
+| 15  | 7.0  | 57143  | -100.07080 | | |
+| 20  | 7.0  | 135135 | -100.07079 | | |
+
+Reaction energies E(HF)-0.5\*E(H2)-0.5\*E(F2) in eV. Conversion factor 27.211.
+
+| box | rgkmax |  HF | Reaction | 
+|--- | ---| ---| ---|
+| 15  | 5.4  |  -100.07028 | -3.181 |
+| 15  | 6.3  |  -100.07080 | -3.188 |
+| 15  | 7.0  |  -100.07080 | -3.187 |
+| 20  | 7.0  |  -100.07079 | -3.192 |
