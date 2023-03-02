@@ -44,7 +44,7 @@ R_H=0.7 a_0, R_F=1.0 a_0.
 | 15  | 7.0  | 57143  | -100.07080 | | |
 | 20  | 7.0  | 135135 | -100.07079 | | |
 
-Reaction energies E(HF)-0.5\*E(H2)-0.5\*E(F2) in eV. Conversion factor 27.211.
+Reaction energy E(HF)-0.5\*E(H2)-0.5\*E(F2) in eV. Conversion factor 27.211 eV/Ha.
 
 | box | rgkmax | Reaction (HF) | 
 |--- | ---| ---|
