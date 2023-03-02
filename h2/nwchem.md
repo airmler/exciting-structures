@@ -28,3 +28,18 @@ cc-pvXz
 
 aug-cc-pcvXz
 H2: not available
+
+Results from exciting.
+
+The table contains: 
+* box - the unit cell parameter in a0,
+* rgkmax - dimensionless LAPW cutoff R\_MT * |G+k|\_max (muffin-tin radius times longest wavevector),
+* NB - number of basis functions,
+* total energies.
+
+| box | rgkmax | NB | HF | MP2 | CCSD |
+|--- | ---| ---|---| ---| ---|
+| 15  | 5.6 | 26197  | -1.13361 | | |
+| 15  | 6.3 | 41807  | -1.13363 | | |
+| 15  | 7.0 | 57103  | -1.13364 | | |
+| 20  | 7.0 | 135095 | -1.13362 | | |
