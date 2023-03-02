@@ -32,7 +32,7 @@ H2: not available
 Results from exciting.
 
 The table contains: 
-* box - the unit cell parameter in a0,
+* box - the unit cell parameter (a0),
 * rgkmax - dimensionless LAPW cutoff R\_MT * |G+k|\_max (muffin-tin radius times longest wavevector),
 * NB - number of basis functions,
 * total energies.
