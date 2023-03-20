@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<input>
+
+
+  <title>helium</title>
+
+
+  <structure speciespath=".">
+    <crystal scale="10">
+      <basevect> 1.0     0.0     0.0 </basevect>
+      <basevect> 0.0     1.0     0.0 </basevect>
+      <basevect> 0.0     0.0     1.0 </basevect>
+    </crystal>
+    <species speciesfile="He.xml" rmt="1.5">
+      <atom coord="0.00 0.00 0.00" />
+    </species>
+  </structure>
+
+  <groundstate 
+    do='fromscratch'
+    lradstep='1'
+    ngridk="1 1 1"
+    rgkmax="6"
+    gmaxvr="30" 
+    maxscl="20"
+    epschg="1d-6"
+    epsengy="1d-6"
+    lmaxmat="8"
+    lmaxapw="8"
+    lmaxvr="8"
+    mixer="msec"
+    radialgridtype="cubic"
+    CoreRelativity="none"
+    ValenceRelativity="none"
+    swidth="0.001"
+    nempty="1200"
+    mixerswitch="1"
+    xctype="HYB_PBE0"
+    outputlevel="high"
+    lorecommendation="false"
+    nosym="false"
+>
+      <Hybrid 
+         exchangetype="HF" 
+         excoeff="1.0" 
+         eccoeff="0.0"
+         />
+
+
+ <solver
+    evaltol='1d-15'
+    />
+  </groundstate>
+ <gw taskname="g0w0" nempty="1200" skipgnd="true">
+  <mixbasis gmb="1.0" epsmb="1d-4" lmaxmb="4"/>
+  <barecoul barcevtol="0.1d0" basis="mb"/>
+  <selfenergy singularity="mpb"/>
+ </gw>
+
+</input>
